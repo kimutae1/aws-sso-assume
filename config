@@ -1,0 +1,24 @@
+[default]
+region = ap-northeast-2
+output = json
+#cli_auto_prompt = on
+no-cli-pager = on
+cli_pager = 
+
+
+[profile sso-kth2]
+sso_session = kth
+sso_account_id = 851725
+sso_role_name = AdministratorAccess
+region = ap-northeast-2
+output = json
+cli_pager = 
+
+
+[sso-session kth]
+sso_start_url = https://d-9b6xxxxx.awsapps.com/start
+sso_region = ap-northeast-2
+sso_registration_scopes = sso:account:access
+cli_pager = 
+
+
